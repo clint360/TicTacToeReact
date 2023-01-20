@@ -4,7 +4,7 @@ import { Box } from './Components/Box'
 function App() {
   return (
     <div className="App">
-      <Box />
+      <Box value="X" onClick={null}/>
     </div>
   );
 }

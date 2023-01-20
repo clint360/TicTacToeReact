@@ -18,7 +18,7 @@ const App = () => {
     [2, 5, 8],
     [0, 4, 8],
     [2, 4, 6]
-  ]
+  ] 
 
   const [xPlaying, setXPlaying] = useState(true);
   const [board, setBoard] = useState(Array(9).fill(null))
@@ -58,12 +58,12 @@ const App = () => {
         let { oScore } = scores;
         oScore += 1;
         setScores({ ...scores, oScore })
-        alert('🍄 wins')
+        alert('🍄 Wins')
       } else {
         let { xScore } = scores;
         xScore += 1;
         setScores({ ...scores, xScore })
-        alert('🍌 wins')
+        alert('🍌 Wins')
       }
     }
 
